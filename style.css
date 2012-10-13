@@ -93,6 +93,22 @@ header > hgroup > h2
     margin: 2em auto;
 }
 
+nav.menu
+{
+    margin: 7px auto;
+    text-align: right;
+}
+
+nav.menu > a
+{
+    margin: 0 7px;
+    padding: 3px 14px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    border-radius: 5px;
+}
+
 section > section
 {
     margin: 0 1em;
