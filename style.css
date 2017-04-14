@@ -85,7 +85,7 @@ header > hgroup > h2
     text-align: right;
 }
 
-#content
+main
 {
     width: 80%;
     max-width: 1600px;
@@ -114,7 +114,7 @@ section > section
     margin: 0 1em;
 }
 
-#content > h1,
+main > h1,
 section > h1
 {
     margin-top: 1em;
@@ -123,10 +123,10 @@ section > h1
     font-size: 1.5em;
 }
 
-#content h2,
-#content p,
-#content ul,
-#content dl
+main h2,
+main p,
+main ul,
+main dl
 {
     margin: 1em 0;
 }
@@ -137,14 +137,21 @@ section > h1 + h2
     font-size: 1.25em;
 }
 
-#content p,
-#content ul,
-#content dl
+main p,
+main ul,
+main dl
 {
     padding: 0 2em;.
 }
 
-#content code
+main pre
+{
+    margin: 0 50px;
+    padding: 20px;
+    border: 1px dashed white;
+}
+
+main code
 {
     line-height: 2em;
 }
@@ -259,7 +266,7 @@ section > h1 + h2
     border-bottom: 1px dotted #3CA9DE;
 }
 
-#content .project p
+main .project p
 {
     padding: 0;
 }
